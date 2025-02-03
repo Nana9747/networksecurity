@@ -7,6 +7,7 @@ import pandas as pd
 Data Ingestion related constant start with DATA_INGESTION VAR NAME 
 """
 
+TARGET_COLUMN = "Result"
 PIPELINE_NAME: str = "NetworkSecurity"
 ARTIFACT_DIR: str = "Artifacts"
 FILE_NAME: str = "phisingData.csv"
